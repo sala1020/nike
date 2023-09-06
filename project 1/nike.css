@@ -1,0 +1,467 @@
+body{
+    margin: 0%;
+}
+
+header{
+    
+    margin-top: -16px;
+    width: 100%;
+    height: 170px;
+    background-color: #f5f5f5;
+}
+.first-nav{
+    height: 35px;
+    display: flex;
+    
+}
+.first-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.jordan-logo{
+    height: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-top: 8px;
+    
+}
+
+.first-first {
+    margin-left: 50px;
+    margin-left: 1480px;
+    margin-top: 7px;
+}
+.first-first a{
+    
+    color: black;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: small;
+    padding: 0px 7px;
+    text-decoration-line: none;
+
+}
+
+.first-first a:last-child::after{
+    background-color: aqua;
+
+}
+.find::after{
+    content: "|";
+}
+.help::after{
+    content: "|";
+}
+.join::after{
+    content: "|";
+}
+.first-first a:hover{
+    color: #7e7e7e;
+}
+.second-nav{
+    height: 63px;
+    background-color: white;
+    margin-top: 15px;
+}
+.second-nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.nike-logo{
+    height: 24px;
+    margin-left: 6px;
+    margin-top: 19px;
+}
+
+.second-second a{
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 21px 15px;
+}
+.second-second ul{
+    margin-top:-38px;
+   justify-content: center;
+}
+.second-second a:hover{
+    padding-bottom: 18px;
+    border-bottom:2px solid black;
+
+}
+
+
+.hearticon{
+    width: 26px;
+   
+}
+
+.shopicon{
+    width: 28px;
+    
+}
+.heart{
+    margin-right: 138px;
+    display: flex;
+    margin-top: -47px;
+    justify-content: right;
+    
+}
+.bag{
+    margin-right: 91px;
+    display: flex;
+    margin-top: -48px;
+    justify-content: right;
+  
+}
+.second-third button{
+    border: none;
+    border-radius: none;
+    background-color: white;
+}
+.second-third button:hover{
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+
+.box{
+    width: 178px;
+    height: 36px;
+    display: flex;
+    margin-left: 1545px;
+    margin-top: -51px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    border: none;
+   
+}
+.search-button{
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 50%;
+    margin-top: 3px;
+    height: 31px;
+    margin-left: 5px;
+}
+.icon-search{
+    height: 23px;
+}
+.search-field{
+    margin-top: -31px;
+    margin-left: 1601px;
+    width: 113px;
+    display: flex;
+    outline: none;
+    justify-content: right;
+    background-color: #f5f5f5;
+    border: none;
+    height: 23px;
+    font-family: sans-serif;
+    visibility: visible;
+    border-color: black;
+    
+}
+.search-field:hover{
+    border: none;
+}
+.third-nav h4{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family:sans-serif;
+}
+.third-nav a{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    color: black;
+    height: 0px;
+    font-family: sans-serif;
+}
+
+.first h1{
+    margin-top: 0px;
+    padding: 28px 20px 42px 34px;
+    font-weight: 200;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-block: auto;
+}
+.second img{
+    height: 100%;
+    width: 100%;
+}
+.third h1{
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-block: auto;
+    padding: 72px 0px 7px 360px;
+}
+.third h3{
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 0px 361px 80px;
+}
+.fourth img{
+    padding: 0px 0px 56px 51px;
+}
+.fifth h1{
+    padding: 26px 323px 0px 321px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.fifth h3{
+    padding: 0px 323px 100px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.sixth img{
+    padding: 0px 0px 0px 50px;
+}
+.seventh h1{
+    padding: 61px 321px 0px 358px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.seventh h3{
+    padding: 0px 360px 75px;   
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.eighth img{
+    margin-block: auto;
+    padding: 0px 0px 0px 50px;
+}
+.ninth h1{
+    padding: 61px 321px 0px 358px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.ninth h3{
+    padding: 0px 360px 75px;   
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.tenth img{
+    margin-block: auto;
+    padding: 0px 0px 131px 50px;
+}
+.eleventh h1{
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 0px 0px 0px 50px;
+}
+.twelth{
+    padding: 0px 0px 50px 50px;
+    display: flex;
+}
+.one{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.one h1{
+    font-family: sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+.two h1{
+    font-family: sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+.two{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    
+}
+.first-section a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 5px 0px;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+.first-section{
+    padding: 19px 237px 0px;
+}
+.first-section li{
+    margin: 0px 0px 10px 0px;
+
+}
+.second-section a{
+    text-decoration: none;
+ 
+    margin: 0px 0px 5px 0px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+.second-section{
+    margin: -124px 351px 0px 507px;
+}
+.second-section li{
+    margin: 0px 0px -8px 0px;
+}
+.second-section h6 a{
+    color:   #7e7e7e;
+}
+.second-section h4 a{
+    color: white;
+    font-size: 12px;
+}
+.second-section h6 a:hover{
+    color:  white;
+}
+.third-section{
+     margin: -213px 352px 0px 783px;
+}
+.third-section a{
+    text-decoration: none;
+ 
+    margin: 0px 0px 5px 0px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+.third-section li{
+    margin: 0px 0px -10px 0px;
+}
+.third-section h4 a{
+margin-left: -7px;
+color: white;
+}
+.third-section h6 a{
+    color:   #7e7e7e;
+}
+.third-section h6 a:hover{
+    color: white;
+}
+.forth-section img{
+    height: 19px;
+    width: 24px;
+}
+.forth-section{
+    margin: -155px 370px 0px 1376px;
+}
+.forth-section button{
+    border: none;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    height: 29px;
+    width: 34px;
+    cursor: pointer;
+}
+.forth-section button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.fifth-section img{
+    height: 19px;
+    width: 24px;
+}
+.fifth-section{
+    margin: -46px 370px 0px 1437px;
+}
+.fifth-section button{
+    border: none;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    height: 29px;
+    width: 34px;
+    cursor: pointer;
+}
+.fifth-section button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.sixth-section img{
+    height: 19px;
+    width: 24px;
+}
+.sixth-section{
+    margin: -46px 370px 0px 1499px;
+}
+.sixth-section button{
+    border: none;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    height: 29px;
+    width: 34px;
+    cursor: pointer;
+}
+.sixth-section button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.seventh-section img{
+    height: 19px;
+    width: 24px;
+}
+.seventh-section{
+    margin: -46px 370px 0px 1558px;
+}
+.seventh-section button{
+    border: none;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    height: 29px;
+    width: 34px;
+    cursor: pointer;
+}
+.seventh-section button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.eighth-section{
+    margin: 207px 375px -227px 234px;
+    
+}
+.eighth-section li{
+   
+   list-style-type: none;
+}
+.eighth-section a{
+    text-decoration-line: none;
+    color: white;
+}
+.eighth-section img{
+   
+    height: 14px;
+    margin-block: auto;
+    margin-top: 0px;
+
+}
+.last-1{
+    margin-top: -15px;
+    font-family: sans-serif;
+    margin-left: 66px;
+    color: #7e7e7e;
+    font-size: 13px;
+}
+.ninth-section{
+    
+    margin: 209px 0px -227px 1097px;
+    
+}
+.ninth-section ul{
+    display: flex;
+   
+}
+.ninth-section li{
+    padding: 0px 14px;
+    
+}
+.ninth-section a{
+    text-decoration-line: none;
+    color:  #7e7e7e;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.ninth-section a:hover{
+    color: white;
+}
